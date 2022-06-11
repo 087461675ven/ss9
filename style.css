@@ -1,0 +1,30 @@
+.body {
+  background-color: aqua;
+}
+.home-section .full-screen {
+  padding: 70px 0;
+  min-height: 100px;
+}
+.align-item-center {
+  align-items: center;
+}
+.home-section .home-img {
+  float:0 0 50%;
+  max-width: 50%;
+  padding: 0 15px;
+}
+.home-section .home-Text{
+  background-color: aliceblue;
+ }
+ .home-section .home-img .img-box {
+   max-width: 450px;
+   display: block;
+   margin: auto;
+   border-radius: 60%;
+   padding: 16px;
+ }
+ .home-section .home-img .img-box img {
+   width: 100%;
+   border-radius: 60%;
+   border: 12px solid transparent;
+ }
