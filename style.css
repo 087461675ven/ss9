@@ -1,5 +1,5 @@
-.body {
-  background-color: aqua;
+body {
+  background-color: rgb(226, 230, 230);
 }
 .home-section .full-screen {
   padding: 70px 0;
@@ -13,18 +13,52 @@
   max-width: 50%;
   padding: 0 15px;
 }
-.home-section .home-Text{
-  background-color: aliceblue;
+.home-section .home-Text p{
+  font-size: 15px;
+  font-weight: 60px;
+  font-family: 'DM Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.578);
+  margin: 4px 0;
+ }
+ .home-section .home-Text h1 {
+  font-size: 35px;
+  font-family: 'Volkhov', serif;
+  font-weight: 100px;
+  color: rgba(27, 193, 171, 0.557);
+ }
+ .home-section .home-Text h2 {
+  font-family: 'Oleo Script', cursive;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.802);
+ }
+ .btn-1 {
+   padding: 4px 10px;
+   width: 55px;
+   background-color:rgba(18, 18, 18, 0.557);
+   color: rgba(205, 192, 192, 0.881);
+   border-radius: 30px;
+  
  }
  .home-section .home-img .img-box {
    max-width: 450px;
    display: block;
    margin: auto;
-   border-radius: 60%;
-   padding: 16px;
+   border-radius: 85%;
+   padding: 2px;
+   
  }
  .home-section .home-img .img-box img {
    width: 100%;
-   border-radius: 60%;
-   border: 12px solid transparent;
+   border-radius: 85%;
+   margin: 0 100px;
+   border: 2px solid transparent;
  }
+ .home-section .icon-img img {
+   width: 25px;
+ 
+ }
+ .education {
+  text-align: center;
+ }
+
+
